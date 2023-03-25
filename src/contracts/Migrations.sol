@@ -1,12 +1,12 @@
-pragma solidity '^0.5.0';
+pragma solidity ^0.8.19;
 
 
 contract Migrations{
-    public address owner;
+    address public owner;
     uint public last_completed_migration;   
 
 
-    constructor () public{
+    constructor() {
         owner = msg.sender;
     }
 
@@ -17,7 +17,7 @@ contract Migrations{
 
 
     function setCompleted(uint completed) public restricted{
-        last_completed_migration = completed
+        last_completed_migration = completed;
     }
     
 
