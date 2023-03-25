@@ -1,3 +1,4 @@
 node_modules
+src/truffle_abis 
 
 # "build": "babel src -d out",

@@ -28,8 +28,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -42,8 +41,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -56,8 +54,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -70,8 +67,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract RWD\",\"name\":\"_rwd\",\"type\":\"address\"},{\"internalType\":\"contract Tether\",\"name\":\"_tether\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"rwd\",\"outputs\":[{\"internalType\":\"contract RWD\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"tether\",\"outputs\":[{\"internalType\":\"contract Tether\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/DecentralBank.sol\":\"DecentralBank\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/DecentralBank.sol\":{\"keccak256\":\"0x5ca5b6624fe67636296c8fc06b232103ae294d7e4a059ea140e1ad0b41325e7c\",\"urls\":[\"bzz-raw://7d85d1b1525aad3edb323c43a05a9623e0b3db34d0882b8dcb21d4bc50f3de83\",\"dweb:/ipfs/QmNdrU2MLuJEwgp5q5TAfWyJqj1VccYmTarFhi92nngL3Y\"]},\"project:/src/contracts/RWD.sol\":{\"keccak256\":\"0x213d3adfe6bf5718c780a1d026de7585d3761283fc3160cb526a52ea6b3a6976\",\"urls\":[\"bzz-raw://3238ec2a02cde78dc11f710eca01b52485b060e92150c2fade0bd88694934161\",\"dweb:/ipfs/QmNd68vPcPAkiEsZT6nCx5WPZecGTJS9no5sq3a3cHkmBG\"]},\"project:/src/contracts/Tether.sol\":{\"keccak256\":\"0xf3e942637612671881380478dc0ab9073b777221a22f9964ab2470ae939f7536\",\"urls\":[\"bzz-raw://a5f21dc8f4ad7a18d5017e6a93bc33ebb322026bfca9561fe1c460bb6b2597c9\",\"dweb:/ipfs/QmNVaEnECp1AGVydAn7KBs5CAN8khhiV5pzYgfDf5KXU3K\"]}},\"version\":1}",
@@ -5961,7 +5957,7 @@
                   },
                   "nodeType": "YulIf",
                   "src": "3725:81:4"
-                },
+                },  
                 {
                   "body": {
                     "nodeType": "YulBlock",
@@ -6489,8 +6485,7 @@
     }
   },
   "schemaVersion": "3.4.13",
-  "updatedAt": "2023-03-25T10:48:30.075Z",
-  "networkType": "ethereum",
+  "updatedAt": "2023-03-25T11:24:49.104Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
