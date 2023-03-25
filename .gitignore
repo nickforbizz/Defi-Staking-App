@@ -1,0 +1,3 @@
+node_modules
+
+# "build": "babel src -d out",
